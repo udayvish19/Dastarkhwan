@@ -8,8 +8,9 @@ body {
     font-family:Montserrat;
     font-variant: small-caps;
     font-weight: bold;
-    background-color: #f0f0f0;
+    background-color: #c8cace;
     padding: 10px 0;
+    box-shadow: 10px 0 0 grey;
 }
 .header-content {
     display: flex;
@@ -133,7 +134,7 @@ sub{
   }
 /* Background image */
     body{
-        background-image: url(https://cdn.pixabay.com/photo/2022/08/18/09/14/sea-7394353_640.jpg);
+        background-image: url(https://cdn.pixabay.com/photo/2014/06/11/17/00/food-366875_1280.jpg);
         background-attachment: fixed;
         background-size:cover ;
         background-position: center;
@@ -169,3 +170,28 @@ sub{
             padding: 20px 0;
             text-align: center;
         }
+                    /* Style the dropdown menus */
+           .w3-dropdown-hover:hover .w3-dropdown-content {
+            display:block;
+            color: beige;
+
+             }
+        .w3-dropdown-content {
+          display: none;
+          position: absolute;
+          background-color:#66696b5f;;
+          min-width: 160px;
+         
+        }
+        .w3-dropdown-content a {
+          color:wheat;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+        
+        .w3-dropdown-content a:hover {
+          background-color: #66696b5f;;
+        }
+      
+    

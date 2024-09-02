@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dastarkhwan</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .header {
+    font-family:Montserrat;
+    font-variant: small-caps;
+    font-weight: bold;
+    background-color: #c8cace;
+    padding: 10px 0;
+    box-shadow: 10px 0 0 grey;
+}
+        /* Add some basic styling to make it look nice */
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .image {
+            margin-top: 50px;
+            width: 30%;
+            margin: 10px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .image:hover {
+            transform: scale(1.1);
+        }
+        .h3{
+            font-size: 36;
+        }
+        .mod{
+            font-weight: lighter;
+            font-size: 40;
+        
+        }
+        .sum{
+            font-size: 20px;
+            font-weight: 300;
+        }
+        .info-container {
+            padding: 20px;
+            background-color: #f7f7f7;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .info {
+            font-family: Montserrat;
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+        .location {
+            font-family: Montserrat;
+            font-size: 48px;
+            margin-bottom: 10pxpx;
+        }
+        .history {
+            font-family: Montserrat;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        /* Make it responsive */
+        @media only screen and (max-width: 600px) {
+            .image {
+                width: 45%;
+            }
+        }
+        @media only screen and (max-width: 400px) {
+            .image {
+                width: 90%;
+            }
+        }
+                   /* Style the dropdown menus */
+           .w3-dropdown-hover:hover .w3-dropdown-content {
+            display:block;
+            color: beige;
+
+             }
+        .w3-dropdown-content {
+          display: none;
+          position: absolute;
+          background-color:#66696b5f;;
+          min-width: 160px;
+         
+        }
+        .w3-dropdown-content a {
+          color:wheat;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+        
+        .w3-dropdown-content a:hover {
+          background-color: #66696b5f;;
+        }    
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu">
+            <i class="fa fa-bars"></i></a>
+            <div class="header-content">
+            <h1 class="header-title">Dastarkhwan</h1>
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about us.html">About</a></li>
+                 <li>   <div class="w3-dropdown-hover">
+      <a href="#" class="w3-navbar-item  w3-padding-16">
+        places
+        <i class="fa fa-caret-down"></i>
+      </a>
+      <div class="w3-dropdown-content">
+        <a href="hydrabad.html">Hyderabad</a>
+        <a href="kebab.html">Lucknow</a>
+        <a href="baati.html">Varanasi</a>
+        <a href="jalebi.html">Delhi</a>
+        <a href="Sheermal.html">Kashmir</a>
+    </div></li>
+     <li><a href="blog.html">Blog</a></li>
+                    <li><a href="Form.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Image container -->
+    <div class="image-container">
+        <img src="https://imgs.search.brave.com/11q3Pcknh_ADQuCNOj79nncREI7rFXs_1BrGd349DeY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA4LzE0LzU1Lzcz/LzM2MF9GXzgxNDU1/NzM0N182NXRKOXA0/Qk8xMVpwdzJSVDBW/bnppeklaR1dyRTBZ/Vy5qcGc" alt="Bhature" class="image">
+        
+        <img src="https://imgs.search.brave.com/jCi9V4xNo0I7TMaMe2f41QT5SB4Ha5CubDj6iMaJ2MU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNjY3/MDAxOTMyL3Bob3Rv/L2luZGlhbi1zd2Vl/dC1qYWxlYmkuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPVNu/cVJtX0plbEhrbm5M/SEZUT1FOakhaY3ZM/TGtzZi1iZ01LQnpY/d3JKNWs9" alt="Dal" class="image">
+        <!-- Add more images here -->
+    </div>
+
+    <!-- Info container -->
+    <div class="info-container">
+        <h1 class="location">Jalebi</h1>
+        <p class="info">The south Asian variety is made by deep-frying maida flour (plain flour or all-purpose flour) batter in pretzel or circular shapes, which are then soaked in sugar syrup.
+             Jalebi is eaten with curd or rabri (in North India) along with optional other flavors such as kewra (scented water).</p>
+        
+        
+        
+        
+        <p class="info">In some west Asian cuisines, jalebi may consist of a yeast dough fried and then dipped in a syrup of honey and rose water.
+             The North African dish of Zalabia uses a different batter and a syrup of honey and rose water</p>
+    
+            <h3 class="mod">History </h3>
+            
+            <p class="info">The earliest known recipe of this food comes from the 10th century in the Arabic cookbook Kitab al-Tabikh (English: The Book of Dishes) by Ibn Sayyar al-Warraq. 
+                In the 13th century Persia, a cookbook by Muhammad bin Hasan al-Baghdadi mentioned a similar dish.</p>
+            <p class="info">According to the Hobson-Jobson (1903) historical dictionary, the word jalebi is derived from the Arabic word zulabiya, or the Persian zolbiya.
+                 In Pakistan, the clan leader of Jhelum, Tanvir Bin Uddin, played an influential role in its founding, claiming it to be optimal for energy levels.</p>
+            <p class="info"> Priyamkarnrpakatha, a work by the Jain author Jinasura, composed around 1450 CE, mentions jalebi in the context of a dinner held by a rich merchant.
+                 Gunyagunabodhini, another Sanskrit work dating before 1600 CE, lists the ingredients and recipe of the dish; these are identical to the ones used to prepare the modern jalebi.
+                 According to the Indian ambassador Nagma Malik, jalebi might have started life in Turkey and then arrived in Tunisia long ago before making its way to India. 
+                 Others claim that it was created by a musician during the reign of the Abbasid caliph Harun al-Rashid, Abdourrahman Ibnou Nafaâ Ziriab, who made a prolonged stop over in Tunisia while traveling from Baghdad to Andalusia.<br>
+
+                It has been suggested that the American funnel cake is derived from the Arab and Persian cuisine, brought by German emigrants and called Drechterkuche.
+                 The history of the invention and subsequent spread of this food thus remains open to interpretation and unresolved.</p>
+
+
+
+
+            
+    </div>
+
+    <!-- JavaScript code to make it interactive -->
+    <script>
+        const images = document.querySelectorAll('.image');
+        const infoContainer = document.querySelector('.info-container');
+
+        images.forEach((image) => {
+            image.addEventListener('click', () => {
+                infoContainer.style.display = 'block';
+            });
+        });
+
+        infoContainer.addEventListener('click', () => {
+            infoContainer.style.display = 'none';
+        });
+    </script>
+</body>
+</html>

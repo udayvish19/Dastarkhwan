@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dastarkhwan</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .header {
+    font-family:Montserrat;
+    font-variant: small-caps;
+    font-weight: bold;
+    background-color: #c8cace;
+    padding: 10px 0;
+    box-shadow: 10px 0 0 grey;
+}
+        /* Add some basic styling to make it look nice */
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .image {
+            margin-top: 50px;
+            width: 30%;
+            margin: 10px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .image:hover {
+            transform: scale(1.1);
+        }
+        .h3{
+            font-size: 36;
+        }
+        .mod{
+            font-weight: lighter;
+            font-size: 40;
+        
+        }
+        .sum{
+            font-size: 20px;
+            font-weight: 300;
+        }
+        .info-container {
+            padding: 20px;
+            background-color: #f7f7f7;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .info {
+            font-family: Montserrat;
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+        .location {
+            font-family: Montserrat;
+            font-size: 48px;
+            margin-bottom: 10pxpx;
+        }
+        .history {
+            font-family: Montserrat;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        /* Make it responsive */
+        @media only screen and (max-width: 600px) {
+            .image {
+                width: 45%;
+            }
+        }
+        @media only screen and (max-width: 400px) {
+            .image {
+                width: 90%;
+            }
+        }
+                   /* Style the dropdown menus */
+           .w3-dropdown-hover:hover .w3-dropdown-content {
+            display:block;
+            color: beige;
+
+             }
+        .w3-dropdown-content {
+          display: none;
+          position: absolute;
+          background-color:#66696b5f;;
+          min-width: 160px;
+         
+        }
+        .w3-dropdown-content a {
+          color:wheat;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+        
+        .w3-dropdown-content a:hover {
+          background-color: #66696b5f;;
+        }
+        
+      
+    
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu">
+            <i class="fa fa-bars"></i></a>
+            <div class="header-content">
+            <h1 class="header-title">Dastarkhwan</h1>
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about us.html">About</a></li>
+                 <li>   <div class="w3-dropdown-hover">
+      <a href="#" class="w3-navbar-item  w3-padding-16">
+        places
+        <i class="fa fa-caret-down"></i>
+      </a>
+      <div class="w3-dropdown-content">
+        <a href="hydrabad.html">Hyderabad</a>
+        <a href="kebab.html">Lucknow</a>
+        <a href="baati.html">Varanasi</a>
+        <a href="jalebi.html">Delhi</a>
+        <a href="Sheermal.html">Kashmir</a>
+    </div></li>
+     <li><a href="blog.html">Blog</a></li>
+                    <li><a href="Form.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Image container -->
+    <div class="image-container">
+        <img src="https://imgs.search.brave.com/-MTw4B0yoDZ8nimih0RU27qSnqs0Wiys3uuYmdWRD8s/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9ibG9n/LnN1dmllLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMS8x/MS84OTMzMjY3Mjg4/XzYyNTNhOGE3MWNf/Yi5qcGc" alt="sheermal" class="image">
+        <img src="https://imgs.search.brave.com/0gOT_5yVWfnrwANDK6b3nDoWqlUvsM_5tVpdiZoqAM0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dGhlZGVsaWNpb3Vz/Y3Jlc2NlbnQuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIz/LzA2L1NoZWVybWFs/LTQuanBn" alt="sheer" class="image">
+        <img src="https://imgs.search.brave.com/FKJOBs6kSwULsuAMO2qWPrH-W68Ke-YjNMf0AqnXSm8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aGFydmVzdGZvb2Rp/bmR1c3RyaWVzLmNv/bS9pbWcvU2hlZXJt/YWwtc20uanBn" alt="sheermal" class="image">
+        <!-- Add more images here -->
+    </div>
+
+    <!-- Info container -->
+    <div class="info-container">
+        <h1 class="location">Sheermal</h1>
+        <p class="info">Sheermal, also spelled shirmal, is a saffron-flavored traditional flatbread eaten in Iran and the Indian subcontinent.
+             The word sheermal is derived from the Persian words sheer, (Sanskrit Kshir) meaning milk, and malidan meaning to rub. In a literal translation,
+              sheermal means milk-rubbed. It was introduced to North India by the Mughal emperors during the medieval period. 
+              It became a delicacy of Lucknow, Hyderabad and Aurangabad.
+             It is also part of the Awadhi cuisine and is enjoyed in Bhopal and Pakistan.</p>
+        <h3 class="mod"> Preparation </h3>
+        <p class="info"> Shirmal is a mildly sweet naan made out of maida, leavened with yeast and baked in a tandoor or oven. Shirmal was traditionally made like roti. Today, shirmal is prepared like naan.
+             The warm water in the recipe for naan roti was replaced with warm milk sweetened with sugar and flavored with saffron and cardamom.
+            <br>
+            In Iran, there are slight regional variations in the preparation of sheermal. As such, it is sometimes sold as a souvenir when travelling between the regions.
+            <br>
+            In India, especially in the city of Lucknow, shirmal is sometimes served with kababs, tikkia, or alongside nihari.</p>
+        
+    </div>
+
+    <!-- JavaScript code to make it interactive -->
+    <script>
+        const images = document.querySelectorAll('.image');
+        const infoContainer = document.querySelector('.info-container');
+
+        images.forEach((image) => {
+            image.addEventListener('click', () => {
+                infoContainer.style.display = 'block';
+            });
+        });
+
+        infoContainer.addEventListener('click', () => {
+            infoContainer.style.display = 'none';
+        });
+    </script>
+</body>
+</html>
